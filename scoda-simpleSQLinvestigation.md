@@ -1,7 +1,3 @@
----
-title: An Introduction to SQL Databases for Data Analysis
-layout: post
----
 #An Introduction to SQL Databases for Data Analysis - Part I: SQLite
 
 This two part module provides a basic introduction to the SQLite database and the SQL database query language. This first part introduces SQLite and illustrates how to start working with it. The second part demonstrates how we can start analysing a real dataset using SQL.
