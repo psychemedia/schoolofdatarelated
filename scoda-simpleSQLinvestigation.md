@@ -1,5 +1,6 @@
 ---
 title: An Introduction to SQL Databases for Data Analysis
+layout: post
 ---
 #An Introduction to SQL Databases for Data Analysis - Part I: SQLite
 
