@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1417108871805.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "AE97A936",
+    "lastKnownWriteTime" : 3418906613689248367,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "japan_to_indonesia",
+        "contentUrl" : "content?title=japan_to_indonesia&file=62917b3d4aaf4524a3014fe3ce63e4b9.htm",
+        "displayedObservations" : "292",
+        "displayedVariables" : 4,
+        "totalObservations" : "292",
+        "variables" : "3"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

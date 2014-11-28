@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1417104838790.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C9867A60",
+    "lastKnownWriteTime" : 429496729600,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "aid",
+        "contentUrl" : "content?title=aid&file=26dfac3afa3b4dff8bfc03379ae0c2da.htm",
+        "displayedObservations" : "1000",
+        "displayedVariables" : 7,
+        "totalObservations" : "16147",
+        "variables" : "7"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
