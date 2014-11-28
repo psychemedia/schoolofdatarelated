@@ -274,7 +274,7 @@ melt(example.wide,
 
 In many situations, we may want to combine data from different data tables into a single dataset. The data may even come from different sources, as you will see in this section.
 
-As well as being able to load data into R from a file on your computer or a remote location on the web, several R packages have been created that provide straightforward access to remote data sources. For example, the `WDI` package provides an interface to the World Bank Development Indicators database.
+As well as being able to load data into R from a file on your computer or a remote location on the web, several R packages have been created that provide straightforward access to remote data sources. For example, the `WDI` package provides an interface to the [World Bank Development Indicators](http://data.worldbank.org/indicator/) database.
 
 From the RStudio *Packages* panel, install the `WDI` package and then load it in to RStudio.
 
@@ -379,16 +379,26 @@ g=g+ggtitle("Population Growth")+xlab(NULL)+ylab('Total Population')
 g+theme_bw()
 ```
 
-The `ggplot` library is a very powerful and flexible one that repays experimentation. COmprehensive documentation is available: [`ggplot2` documentation](http://docs.ggplot2.org/current/). It is particularly suited to generating statis charts appropriate for print. However, a range of libraries are also becoming available that support the creation of interative web charts, using similar chart construction ideas. For example, see [rCharts](http://rcharts.io/), [googleVis](http://cran.r-project.org/web/packages/googleVis/vignettes/googleVis_examples.html) or [ggvis](http://ggvis.rstudio.com/).
+The `ggplot` library is a very powerful and flexible one that repays experimentation. Comprehensive documentation is available: [`ggplot2` documentation](http://docs.ggplot2.org/current/). It is particularly suited to generating statis charts appropriate for print. However, a range of libraries are also becoming available that support the creation of interative web charts, using similar chart construction ideas. For example, see [rCharts](http://rcharts.io/), [googleVis](http://cran.r-project.org/web/packages/googleVis/vignettes/googleVis_examples.html) or [ggvis](http://ggvis.rstudio.com/).
 
 
 
 ## Summary
+This course has provided an introduction to R and the RStudio environment, with a focus on how R and some of its associated extension libraries can be used to support a wide range of data wrangling and exploratory data analysis activities.
 
+In particular, we have introduced the RStudio development environment and shown how to load simple data files into in a structured way from text based CSV files and from online data APIs such as the World Bank Indicators API.
+
+To support data wrangling activities, we briefly reviewed several R libraries and the features they support:
+
+* `plyr`, for sorting datasets using the `arrange()` function and summarising datasets using the *split-apply-combine* pattern using the `ddply()` function;
+* `reshape2` for reshaping tabular datasets, for example using `dcast()` to cast a long dataframe to a wide format table, and `melt()` to convert a wide format data table to a long one;
+* `ggplot2` for plotting a range of statistical charts.
+
+Exploring the potential of each of these libraries and the sorts of data handling operations they support could each take a course in its own right. However, we hope you have at glimpsed how they can be used together as part of a rich data processing pipeline.
 
 ## Taking R Further
 
-This course has provided an introduction to R and the RStudio environment, with a focus on how R and some of its associated extension libraries can be used to support a wide range of data wrangling and exploratory data analysis activities.
+Given the short nature of this course, we have only had time to provide a brief overview of what the `plyr`, `reshape2` and `ggplot2` libraries are capable of. There is a wealth of documentation and tutorials how to use them onine, especially on sites such as RBloggers and StackOverflow.
 
 As befits its origins as a statistical programming language, R also provides extensive support for confirmatory statistical analysis.
 
